@@ -2,8 +2,8 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import databaseConnect from './db.js';
-import { newDescarte } from './controllers/newDescarte.controller.js';
-import { newPickup } from './controllers/pickup.controller.js';
+import { newDescarte } from '../controllers/newDescarte.controller.js';
+import { newPickup } from '../controllers/pickup.controller.js';
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
