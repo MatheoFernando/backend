@@ -25,3 +25,4 @@ databaseConnect();
 app.listen(port, () => {
   console.log(`Server is running on ${port}`);
 });
+export default app
