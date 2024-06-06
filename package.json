@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon --env-file=.env src/app.js",
-    "vercel-build": "npx prisma migrate deploy"
+    "vercel-build": " pnpm run vercel-build"
   },
   "keywords": [],
   "author": "",
