@@ -13,7 +13,7 @@ app.use(cors());
 const port = process.env.PORT || 4000;
 
 app.get('/', (req, res) => {
-  return res.status(200).send({ message: 'Everything is OK!' });
+  return res.send('Everything is OK!' );
 });
 
 app.post('/new-descarte', newDescarte);
